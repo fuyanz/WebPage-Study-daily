@@ -1,0 +1,287 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 黑体;
+}
+body a {
+  text-decoration-line: none;
+  color: white;
+}
+.main-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header {
+  background-color: rgb(91, 196, 199);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 20px 2%;
+  box-sizing: border-box;
+  flex-direction: row;
+  z-index: 2;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 180px;
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+}
+.logo img {
+  width: 40px;
+}
+.logo a {
+  font-size: 36px;
+  color: white;
+  font-weight: 900;
+  line-height: 40px;
+}
+.nav {
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  height: 40px;
+}
+.nav li {
+  font-size: 16px;
+  margin: 0 26px;
+  display: inline;
+  list-style: none;
+  color: white;
+}
+.log-exp {
+  display: flex;
+  width: 14%;
+}
+.log-exp a {
+  font-size: 16px;
+}
+.log,
+.exp {
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+}
+.log {
+  text-align: left;
+}
+.exp {
+  border: 1px white solid;
+  text-align: center;
+  border-radius: 5px;
+}
+.container {
+  background-color: rgb(91, 196, 199);
+  width: 100%;
+  /* height: 8000px; */
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  width: 100%;
+  text-align: center;
+  height: 600px;
+}
+.effect {
+  display: inline-block;
+  padding-top: 200px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+}
+.help {
+  margin: 10px 0 60px 0;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+.btn a {
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(255, 245, 30);
+  color: rgb(91, 196, 199);
+  font-weight: 600;
+}
+.partner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.movie video {
+  width: 740px;
+  height: 355px;
+  padding: 0;
+  margin: 0;
+}
+.photo img {
+  width: 740px;
+  height: 130px;
+  padding: 0;
+  margin: 0;
+}
+.partner-left {
+  display: inline-block;
+  margin-left: 80px;
+  font-size: 0;
+}
+.photo {
+  display: inline-block;
+  height: 25%;
+  width: 100%;
+  font-size: 0;
+}
+.movie {
+  font-size: 0;
+  height: 75%;
+  width: 100%;
+}
+.partner-right {
+  display: inline-block;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+}
+.descrption {
+  display: inline-block;
+  text-align: left;
+  margin: 20% 10% 0 20%;
+  width: 40%;
+  height: 60%;
+
+  color: white;
+}
+.slogan-large {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+}
+.slogan-mid {
+  font-size: 16px;
+}
+.movie-special {
+  font-size: 0;
+  height: 75%;
+  width: 100%;
+}
+.photo-special {
+  display: inline-block;
+  height: 25%;
+  width: 740px;
+  font-size: 0;
+  background-color: rgb(255, 240, 240);
+}
+.photo-special img {
+  width: 740px;
+}
+.movie-special video {
+  font-size: 0;
+  width: 740px;
+  padding: 0;
+  margin: 0;
+}
+.teams {
+  text-align: center;
+  margin: 40px;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.teams img {
+  width: 1028px;
+}
+.command {
+  text-align: center;
+  margin: 100px 200px;
+}
+.commands {
+  font-size: 0;
+  width: 100%;
+  margin-left: 100px;
+  height: 600px;
+}
+.command h2 {
+  margin: 80px px;
+  font-size: 32px;
+  font-weight: 900;
+}
+em {
+  background-color: rgb(255, 245, 191);
+}
+.recom {
+  float: left;
+  text-align: left;
+  width: 300px;
+  /* height: 300px; */
+  font-size: 18px;
+  margin: 10px;
+  /* background-color: lightcoral; */
+}
+.recom span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.learnmore {
+  position: absolute;
+  top: 4000px;
+  width: 100%;
+  height: 830px;
+  background-color: aliceblue;
+  background: linear-gradient(
+    to bottom,
+    rgba(201, 178, 178, 0),
+    rgba(253, 255, 255, 0.993)
+  );
+}
+.template {
+  display: inline-block;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+.more {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.more a {
+  color: rgb(91, 196, 199);
+}
+.template p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.product {
+  color: black;
+  width: 200px;
+  background: image(
+    "image/templates-product-48d978e31a332f58e906d1d02e8030ae.png"
+  );
+}
